@@ -25,7 +25,7 @@ export default function Portfolio() {
       description: "A comprehensive health monitoring and appointment system with admin dashboard, patient records, and real-time scheduling.",
       tech: ["React", "Node.js", "MongoDB", "Vercel"],
       liveUrl: "https://final-hksamms.vercel.app/",
-      image: "/src/assets/hksamm.jpg"
+      image: "/assets/hksamm.jpg"
     },
     {
       id: 2,
@@ -33,7 +33,7 @@ export default function Portfolio() {
       description: "Web-based health testing platform with user registration, symptom checker, and medical record management.",
       tech: ["PHP", "MySQL", "JavaScript"],
       liveUrl: "http://health-testing.mywebcommunity.org/",
-      image: "/src/assets/smarthealth.jpg"
+      image: "/assets/smarthealth.jpg"
     },
     {
       id: 3,
@@ -52,7 +52,7 @@ export default function Portfolio() {
       title: "Oracle Cloud Infrastructure Foundations",
       issuer: "Oracle",
       date: "2025",
-      image: "/src/assets/eCertificate1.png",
+      image: "/assets/eCertificate1.png",
       description:
         "Certified in Oracle Cloud Infrastructure fundamentals, including core services, networking, compute, storage, and security best practices.",
       skills: ["OCI", "Cloud Computing", "Networking", "Security", "IaC"]
@@ -62,7 +62,7 @@ export default function Portfolio() {
       title: "Oracle Database Administration",
       issuer: "Oracle",
       date: "2025",
-      image: "/src/assets/eCertificate2.png",
+      image: "/assets/eCertificate2.png",
       description:
         "Mastered Oracle Database installation, configuration, backup/recovery, performance tuning, and high-availability solutions.",
       skills: ["Oracle DB", "SQL", "PL/SQL", "Backup & Recovery", "Performance Tuning"]
@@ -72,7 +72,7 @@ export default function Portfolio() {
       title: "Oracle Cloud Data Management",
       issuer: "Oracle",
       date: "2025",
-      image: "/src/assets/eCertificate_database-1.png",
+      image: "/assets/eCertificate_database-1.png",
       description:
         "Proficient in Oracle Autonomous Database, data migration, integration with OCI services, and building scalable data solutions.",
       skills: ["Autonomous DB", "Data Migration", "ETL", "OCI Integration", "Analytics"]
@@ -82,7 +82,7 @@ export default function Portfolio() {
       title: "Oracle Cloud Networking Professional",
       issuer: "Oracle",
       date: "2025",
-      image: "/src/assets/eCertificate_networking-1.png",
+      image: "/assets/eCertificate_networking-1.png",
       description:
         "Expertise in designing and implementing secure, high-performance network architectures using VCNs, Load Balancers, VPN, and FastConnect.",
       skills: ["VCN", "Load Balancing", "VPN", "FastConnect", "Network Security"]
