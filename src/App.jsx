@@ -37,11 +37,11 @@ export default function Portfolio() {
     },
     {
       id: 3,
-      title: "Social Media App",
-      description: "Modern social platform with real-time messaging",
-      tech: ["React Native", "Firebase", "Redux"],
+      title: "Clinic Appointment System",
+      description: "A comprehensive clinic appointment system with patient management and scheduling features.",
+      tech: ["React Native", "Firebase", "Expo"],
       liveUrl: null,
-      image: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=800&h=600&fit=crop"
+      image: "/assets/test.jpg"
     }
   ];
 
@@ -237,7 +237,7 @@ export default function Portfolio() {
                 style={{ transformStyle: "preserve-3d" }}
               >
                 <img
-                  src="https://avatars.githubusercontent.com/u/123456789?v=4"
+                  src="/assets/profile.png"
                   alt="Francis Tonzo"
                   className="w-48 h-48 rounded-full mx-auto border-4 border-red-600 shadow-2xl shadow-red-600/50"
                 />
@@ -254,7 +254,7 @@ export default function Portfolio() {
                 animate={{ textShadow: ["0 0 20px rgba(220, 38, 38, 0.5)", "0 0 40px rgba(220, 38, 38, 0.8)", "0 0 20px rgba(220, 38, 38, 0.5)"] }}
                 transition={{ duration: 2, repeat: Infinity }}
               >
-                Francis Tonzo
+                Francis Xaviery <br></br>Miguel Tonzo
               </motion.span>
             </motion.h1>
 
