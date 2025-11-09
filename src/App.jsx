@@ -248,8 +248,8 @@ export default function Portfolio() {
               initial={{ y: 50, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
               transition={{ delay: 0.2 }}
-              className="text-6xl md:text-8xl font-bold mb-6 bg-gradient-to-r from-white via-red-200 to-red-600 bg-clip-text text-transparent"
-            >
+             className="text-6xl md:text-8xl leading-tight pb-4 font-bold mb-6 bg-gradient-to-r from-white via-red-200 to-red-600 bg-clip-text text-transparent"s       
+             >
               <motion.span
                 animate={{ textShadow: ["0 0 20px rgba(220, 38, 38, 0.5)", "0 0 40px rgba(220, 38, 38, 0.8)", "0 0 20px rgba(220, 38, 38, 0.5)"] }}
                 transition={{ duration: 2, repeat: Infinity }}
