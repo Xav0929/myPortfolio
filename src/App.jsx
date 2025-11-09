@@ -30,7 +30,7 @@ export default function Portfolio() {
     {
       id: 2,
       title: "Smart Health Monitoring",
-      description: "Web-based health testing platform with user registration, symptom checker, and medical record management.",
+      description: "Web-based health testing platform with user registration, symptom checker, and medical record management.(First project using PHP and MySQL, Its not Responsive to mobile view)",
       tech: ["PHP", "MySQL", "JavaScript"],
       liveUrl: "http://health-testing.mywebcommunity.org/",
       image: "/assets/smarthealth.jpg"
@@ -38,7 +38,7 @@ export default function Portfolio() {
     {
       id: 3,
       title: "Clinic Appointment System",
-      description: "A comprehensive clinic appointment system with patient management and scheduling features.",
+      description: "A comprehensive clinic appointment system with patient management and scheduling features.(App For Expo)",
       tech: ["React Native", "Firebase", "Expo"],
       liveUrl: null,
       image: "/assets/test.jpg"
@@ -224,7 +224,7 @@ export default function Portfolio() {
             />
           ))}
 
-          <div className="relative z-10 text-center px-6">
+          <div className="relative z-10 text-center px-6 ">
             <motion.div
               initial={{ scale: 0, rotateY: 180 }}
               animate={{ scale: 1, rotateY: 0 }}
@@ -239,7 +239,7 @@ export default function Portfolio() {
                 <img
                   src="/assets/profile.png"
                   alt="Francis Tonzo"
-                  className="w-48 h-48 rounded-full mx-auto border-4 border-red-600 shadow-2xl shadow-red-600/50"
+                  className="w-48 h-48 rounded-full mx-auto border-4 border-red-600 shadow-2xl shadow-red-600/50 mt-24"
                 />
               </motion.div>
             </motion.div>
